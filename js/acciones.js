@@ -14,6 +14,7 @@ function LoginConectar (U,P)
 			 else
 			 {alert("Bienvenido");}
 	});//function msg
+	}
 $(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		$('.Enviar').tap(function(){
@@ -26,4 +27,3 @@ $(document).ready(function(e){
 		});//tap
 	});//deviceready
 	});//ready
-}

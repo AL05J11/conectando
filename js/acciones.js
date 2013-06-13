@@ -26,3 +26,4 @@ $(document).ready(function(e){
 		});//tap
 	});//deviceready
 	});//ready
+}

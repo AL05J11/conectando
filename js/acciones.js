@@ -16,7 +16,7 @@ function LoginConectar (U,P)
 			 {
 			 	var OUsuario=jQuery.parseJSON(msg);
 			 	ID_Usuario=OUsuario.Usuario;
-			 	alert("Bienvenido "+IDUsuario);//+ es para concatenar
+			 	alert("Bienvenido "+ID_Usuario);//+ es para concatenar
 			 	location.href="#Busqueda";
 			 }
 			 	

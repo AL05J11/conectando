@@ -1,4 +1,5 @@
 // JavaScript Document
+var ID_Usuario="";
 function LoginConectar (U,P)
 {
 	datos="usuario="+U+"&password="+P;
@@ -12,7 +13,13 @@ function LoginConectar (U,P)
 		 {
 			 alert("usuario incorrecto");}
 			 else
-			 {alert("Bienvenido");}
+			 {
+			 	var OUsuario=jQuery.parseJSON(msg);
+			 	ID_Usuario=OUsuario.Usuario;
+			 	alert("Bienvenido "+IDUsuario);//+ es para concatenar
+			 	location.href="#Busqueda";
+			 }
+			 	
 	});//function msg
 	}
 $(document).ready(function(e){
